@@ -12,7 +12,7 @@ export const MenuItems = [
     icon: "fa-solid fa-circle-info",
   },
   {
-    title: "Service",
+    title: "Services",
     url: "/service",
     cName: "nav-links",
     icon: "fa-solid fa-briefcase",
@@ -22,5 +22,10 @@ export const MenuItems = [
     url: "/contact",
     cName: "nav-links",
     icon: "fa-solid fa-address-book",
+  },
+  {
+    title: "Whats App",
+    url: "/WhatsApp",
+    cName: "nav-links-mobile",
   },
 ];
