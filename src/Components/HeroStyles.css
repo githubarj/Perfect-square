@@ -57,6 +57,11 @@
     color: #222;
 }
 
+.hero-text .show:hover {
+    color: #fff;
+    background: #f9060c;
+}
+
 .hero-text .hide {
     display: none;
 }

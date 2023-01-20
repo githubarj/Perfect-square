@@ -1,6 +1,8 @@
+import Footer from "../Components/Footer";
 import Hero from "../Components/Hero";
 import Navbar from "../Components/Navbar";
 import Offering from "../Components/Offering";
+import Trait from "../Components/Traits";
 
 function Home() {
   return (
@@ -17,6 +19,8 @@ function Home() {
       />
 
       <Offering/>
+      <Trait/>
+      <Footer />
     </>
   );
 }
