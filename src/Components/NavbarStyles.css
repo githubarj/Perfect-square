@@ -48,7 +48,7 @@
     background-color: #f9060c;
     color: #fff;
     border-radius: 4px;
-    transition: all 0.2s ease-in-out;
+    transition: all 0.7s ease-in-out;
 }
 
 .nav-links-mobile {
@@ -69,6 +69,8 @@ button{
 button:hover{
     background-color: #25D366;
     color: #fff;
+    transition: 0.7s;
+    scale: 1.1;
 }
 
 .menu-icons{
