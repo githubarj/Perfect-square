@@ -3,14 +3,24 @@ import Hero from "../Components/Hero";
 import Navbar from "../Components/Navbar";
 import Offering from "../Components/Offering";
 import Trait from "../Components/Traits";
+import slide1 from "../assets/1.jpg"
+import slide2 from "../assets/2.jpg"
+import slide3 from "../assets/3.jpg"
+
 
 function Home() {
+  const slides = [
+    slide3,
+    slide1,
+    slide2,
+  ]
   return (
     <>
       <Navbar />
       <Hero
+        parentWidth = "100%"
         cName="hero"
-        heroImg="https://images.unsplash.com/photo-1613665813446-82a78c468a1d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1458&q=80"
+        images = {slides}
         title = "TRUST QUALITY DURABILITY"
         text = "What can we do for you?"
         buttonText = "Our Services"
