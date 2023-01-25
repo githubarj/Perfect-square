@@ -6,6 +6,6 @@ find the website [here](https://perfectsquareke.netlify.app/)
 ![Home](/public/perfectsq.png)
 
 ## Tech Stack used 
-React
-Vite
-Netifly
+- React using vite
+- Netifly
+- Email js
