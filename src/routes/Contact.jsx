@@ -6,9 +6,8 @@ import ContactForm from "../Components/ContactForm";
 import AboutImg from "../assets/2.jpg";
 import AnimatedPage from "../Components/AnimatedPage";
 
-
 function Contact() {
-   const slides = [AboutImg];
+  const slides = [AboutImg];
   return (
     <>
       <Navbar />
@@ -16,6 +15,7 @@ function Contact() {
         <Hero
           cName="hero-mid"
           heading="hero-h2"
+          middle="hero-text hero-no-text"
           images={slides}
           h2="Contact"
           btnClass="hide"

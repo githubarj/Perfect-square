@@ -1,6 +1,7 @@
 .form-container{
     margin: 4rem 6rem;
     color: #2a2a2a;
+    z-index: 10000000;
 }
 
 .form-container form{
@@ -10,6 +11,10 @@
     width: 50%;
     margin: auto;
 
+}
+
+.first {
+    display: none !important;
 }
 
 .form-container input{
@@ -30,6 +35,18 @@
 .form-container button{
     display: inline;
 
+}
+
+.submit {
+    border: #fff !important;
+    cursor: pointer;
+}
+
+.submit:hover{
+    scale: 1.05;
+    transition: 0.7s;
+    background-color: #f9060c;
+    color: #fff;
 }
 
 @media screen and (max-width:850px) {

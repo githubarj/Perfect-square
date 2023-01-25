@@ -29,6 +29,7 @@ function Home() {
           parentWidth="100%"
           cName="hero"
           images={slides}
+          middle="hero-text"
           title="TRUST QUALITY DURABILITY"
           text="What can we do for you?"
           buttonText="Our Services"

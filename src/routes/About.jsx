@@ -16,6 +16,7 @@ function About() {
         <Hero
           cName="hero-mid"
           heading="hero-h2"
+          middle="hero-text"
           images={slides}
           h2="About"
           btnClass="hide"

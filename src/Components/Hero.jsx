@@ -29,7 +29,7 @@ function Hero(props) {
     console.log( "Use effect")
     timeRef.current = setTimeout(()=>{
       goToNext()
-    }, 4000)
+    }, 5000)
 
     return () => clearTimeout(timeRef.current)
   }, [goToNext])
@@ -59,7 +59,7 @@ function Hero(props) {
           ))}
         </div>
       </div>
-      <div className="hero-text">
+      <div className={props.middle}>
         <h1>{props.title}</h1>
         <h2 className={props.heading}>{props.h2}</h2>
         <p>{props.text}</p>

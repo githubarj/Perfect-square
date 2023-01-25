@@ -8,6 +8,7 @@ const animations = {
 
 const transition = {
     type: "spring",
+    duration: .7
 }
 
 const AnimatedPage = ({ children }) => {

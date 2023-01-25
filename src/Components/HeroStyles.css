@@ -89,6 +89,10 @@ img {
   width: 100%;
 }
 
+.hero-no-text{
+  display: none;
+}
+
 .hero-text h1 {
   font-size: 3rem;
   font-weight: 800;

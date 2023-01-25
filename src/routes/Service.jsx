@@ -23,6 +23,7 @@ function Service() {
         <Hero
           cName="hero-mid"
           heading="hero-h2"
+          middle="hero-text"
           images={slides}
           h2="Services"
           btnClass="hide"
