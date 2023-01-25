@@ -4,6 +4,14 @@
   position: relative;
 }
 
+.hero::after {
+  content: '';
+  position: absolute;
+  left: 0; top: 0;
+  width: 100%; height: 100%;
+  background: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7));
+}
+
 .hero-mid {
   width: 100%;
   height: 50vh;
@@ -30,9 +38,9 @@
   opacity: 0;
 }
 
-.Arrow:hover{
-   opacity: 1;
-   transition: .7s;
+.Arrow:hover {
+  opacity: 1;
+  transition: 0.7s;
 }
 
 .right {
@@ -42,11 +50,11 @@
   left: 32px;
 }
 
-
 img {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
 }
 
 .dotsContainer {
@@ -67,10 +75,10 @@ img {
   color: #333;
 }
 
-.dots:hover{
-    color: #f9060c;
-    transition: .7s;
-    scale: 1.3;
+.dots:hover {
+  color: #f9060c;
+  transition: 0.7s;
+  scale: 1.3;
 }
 
 .hero-text {
@@ -109,7 +117,7 @@ img {
 .hero-text .show:hover {
   color: #fff;
   background: #f9060c;
-  transition: .7s;
+  transition: 0.7s;
 }
 
 .hero-text .hide {
