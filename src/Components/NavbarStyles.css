@@ -19,8 +19,9 @@
 
 .navbar-logo {
     color: #f9060c;
-    font-size: 2rem;
+    font-size: 2.53vw;
     cursor: pointer;
+    display: inline;
 }
 
 .nav-menu {
@@ -66,9 +67,17 @@ button{
     transition: 0.2s ease-in-out;
 }
 
+button a {
+    text-decoration: none;
+    color: #222
+}
+
+button a:hover {
+    color: #fff;
+}
+
 button:hover{
     background-color: #25D366;
-    color: #fff;
     transition: 0.7s;
     scale: 1.1;
 }

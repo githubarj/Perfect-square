@@ -1,5 +1,6 @@
 import "./HeroStyles.css";
 import { useCallback, useEffect, useRef, useState } from "react";
+import { Link } from "react-scroll";
 
 function Hero(props) {
 
@@ -44,7 +45,6 @@ function Hero(props) {
           &#10097;
         </div>
 
-
         <img src={props.images[currentIndex]} alt="images" />
 
         <div className="dotsContainer">
@@ -64,9 +64,16 @@ function Hero(props) {
         <h2 className={props.heading}>{props.h2}</h2>
         <p>{props.text}</p>
 
-        <a href={props.url} className={props.btnClass}>
+        <Link
+          className={props.btnClass}
+          to="offering"
+          spy={true}
+          smooth={true}
+          offset={-100}
+          duration={500}
+          >
           {props.buttonText}
-        </a>
+        </Link>
       </div>
     </>
   );

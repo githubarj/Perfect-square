@@ -10,7 +10,7 @@ import "./OfferingStyles.css";
 
 const Offering = () => {
   return (
-    <div className="offering">
+    <div className="offering" id="offering">
       <h1>Services we offer</h1>
       <p>we offer solar solurions and water drilling</p>
 
