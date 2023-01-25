@@ -3,6 +3,7 @@ import Navbar from "../Components/Navbar";
 import Footer from "../Components/Footer";
 import ContactForm from "../Components/ContactForm";
 
+
 import AboutImg from "../assets/2.jpg";
 import AnimatedPage from "../Components/AnimatedPage";
 
@@ -22,6 +23,7 @@ function Contact() {
         />
         <ContactForm />
         <Footer />
+        
       </AnimatedPage>
     </>
   );
