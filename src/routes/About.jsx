@@ -4,6 +4,7 @@ import Footer from "../Components/Footer";
 import AboutUs from "../Components/AboutUs";
 
 import AboutImg from "../assets/night.jpg";
+import AnimatedPage from "../Components/AnimatedPage";
 
 function About() {
   const slides = [AboutImg];
@@ -11,16 +12,17 @@ function About() {
   return (
     <>
       <Navbar />
-
-      <Hero
-        cName="hero-mid"
-        heading="hero-h2"
-        images={slides}
-        h2="About"
-        btnClass="hide"
-      />
-      <AboutUs />
-      <Footer />
+      <AnimatedPage>
+        <Hero
+          cName="hero-mid"
+          heading="hero-h2"
+          images={slides}
+          h2="About"
+          btnClass="hide"
+        />
+        <AboutUs />
+        <Footer />
+      </AnimatedPage>
     </>
   );
 }

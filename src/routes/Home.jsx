@@ -3,9 +3,15 @@ import Hero from "../Components/Hero";
 import Navbar from "../Components/Navbar";
 import Offering from "../Components/Offering";
 import Trait from "../Components/Traits";
+import AnimatedPage from "../Components/AnimatedPage";
+
+
+// pictured
 import slide1 from "../assets/1.jpg"
 import slide2 from "../assets/2.jpg"
 import slide3 from "../assets/3.jpg"
+
+
 
 
 function Home() {
@@ -17,20 +23,23 @@ function Home() {
   return (
     <>
       <Navbar />
-      <Hero
-        parentWidth = "100%"
-        cName="hero"
-        images = {slides}
-        title = "TRUST QUALITY DURABILITY"
-        text = "What can we do for you?"
-        buttonText = "Our Services"
-        url = "/"
-        btnClass = "show"
-      />
 
-      <Offering/>
-      <Trait/>
-      <Footer />
+      <AnimatedPage>
+        <Hero
+          parentWidth="100%"
+          cName="hero"
+          images={slides}
+          title="TRUST QUALITY DURABILITY"
+          text="What can we do for you?"
+          buttonText="Our Services"
+          url="/"
+          btnClass="show"
+        />
+
+        <Offering />
+        <Trait />
+        <Footer />
+      </AnimatedPage>
     </>
   );
 }
