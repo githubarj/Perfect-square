@@ -56,28 +56,20 @@
     display: none;
 }
 
-button{
-    padding: 0.5rem 1rem;
-    white-space: nowrap;
+.wApp{
+    padding: 10px !important;
+    padding-bottom: 5px !important;
     border-radius: 0.3rem;
-    font-size: 1rem;
-    font-weight: 600;
-    border: none;
+    width: 16vw !important;
     cursor: pointer;
     transition: 0.2s ease-in-out;
 }
 
-button a {
-    text-decoration: none;
-    color: #222
-}
 
-button a:hover {
-    color: #fff;
-}
 
-button:hover{
-    background-color: #25D366;
+
+
+.wApp:hover{
     transition: 0.7s;
     scale: 1.1;
 }
@@ -134,7 +126,7 @@ button:hover{
         transition: none;
     }
 
-    button {
+    .wApp {
         display: none;
     }
 
