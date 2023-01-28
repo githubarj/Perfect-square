@@ -30,11 +30,17 @@ class Navbar extends Component {
               </li>
             );
           })}
-         
-            <a href="https://wa.me/254722540649" target="_blank">
-              <img src="/WhatsAppButtonGreenSmall.png" title="WhatsApp" className="wApp" />
-            </a>
-          
+
+          <a
+            href="https://api.whatsapp.com/send?phone=254722540649&text=Hello,"
+            target="_blank"
+          >
+            <img
+              src="/WhatsAppButtonGreenSmall.png"
+              title="WhatsApp"
+              className="wApp"
+            />
+          </a>
         </ul>
       </nav>
     );
