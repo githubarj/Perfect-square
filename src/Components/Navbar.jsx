@@ -34,6 +34,15 @@ class Navbar extends Component {
           <a
             href="https://api.whatsapp.com/send?phone=254722540649&text=Hello,"
             target="_blank"
+            className="nav-links-mobile"
+          >
+          
+            WhatsApp
+          </a>
+
+          <a
+            href="https://api.whatsapp.com/send?phone=254722540649&text=Hello,"
+            target="_blank"
           >
             <img
               src="/WhatsAppButtonGreenSmall.png"

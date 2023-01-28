@@ -23,9 +23,4 @@ export const MenuItems = [
     cName: "nav-links",
     icon: "fa-solid fa-address-book",
   },
-  {
-    title: "Whats App",
-    url: "https://api.whatsapp.com/send?phone=254722540649&text=Hello,",
-    cName: "nav-links-mobile",
-  },
 ];
