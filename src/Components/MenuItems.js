@@ -25,7 +25,7 @@ export const MenuItems = [
   },
   {
     title: "Whats App",
-    url: "/WhatsApp",
+    url: "https://api.whatsapp.com/send?phone=254722540649&text=Hello,",
     cName: "nav-links-mobile",
   },
 ];
