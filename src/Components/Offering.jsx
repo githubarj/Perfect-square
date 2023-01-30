@@ -1,9 +1,14 @@
-import pic1 from "../assets/1.jpg";
-import pic2 from "../assets/2.jpg";
-import pic3 from "../assets/3.jpg";
-import pic4 from "../assets/4.jpg";
-import pic5 from "../assets/5.jpg"
-import pic6 from "../assets/6.jpg"
+// solar section
+import pic1 from "../assets/solar1.jpg";
+import pic2 from "../assets/solar2.jpg";
+
+// water drilling
+import pic3 from "../assets/water2.jpg";
+import pic4 from "../assets/water1.jpg";
+
+// construction
+import pic5 from "../assets/const1.jpg"
+import pic6 from "../assets/const2.jpg"
 import OfferingData from "./OfferingData";
 
 import "./OfferingStyles.css";

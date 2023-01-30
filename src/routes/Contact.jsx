@@ -4,7 +4,7 @@ import Footer from "../Components/Footer";
 import ContactForm from "../Components/ContactForm";
 
 
-import AboutImg from "../assets/2.jpg";
+import AboutImg from "../assets/contact.jpg";
 import AnimatedPage from "../Components/AnimatedPage";
 
 function Contact() {
@@ -18,7 +18,7 @@ function Contact() {
           heading="hero-h2"
           middle="hero-text hero-no-text"
           images={slides}
-          h2="Contact"
+          h2="Contact Us"
           btnClass="hide"
         />
         <ContactForm />

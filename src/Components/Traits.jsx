@@ -1,9 +1,9 @@
 import "./TraitsStyles.css";
 import TraitsData from "./TraitsData";
 
-import trait1 from "../assets/7.jpg";
-import trait2 from "../assets/8.jpg";
-import trait3 from "../assets/9.jpg";
+import trait1 from "../assets/trait1.jpg";
+import trait2 from "../assets/trait2.jpg";
+import trait3 from "../assets/trait3.jpg";
 
 function Trait() {
   return (

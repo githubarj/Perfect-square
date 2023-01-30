@@ -3,7 +3,7 @@ import Navbar from "../Components/Navbar";
 import Footer from "../Components/Footer";
 import AboutUs from "../Components/AboutUs";
 
-import AboutImg from "../assets/night.jpg";
+import AboutImg from "../assets/about.jpg";
 import AnimatedPage from "../Components/AnimatedPage";
 
 function About() {

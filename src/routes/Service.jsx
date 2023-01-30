@@ -7,7 +7,7 @@ import AnimatedPage from "../Components/AnimatedPage";
 
 // pictures
 
-import AboutImg from "../assets/night.jpg";
+import AboutImg from "../assets/services.jpg";
 
 
 
