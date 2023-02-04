@@ -22,10 +22,18 @@ const Offering = () => {
       <OfferingData
         className="first-desc"
         heading="Solar Solutions"
-        text="Yes. We're always interested in improving this generator and one of
-            the best ways to do that is to add new and interesting paragraphs to
-            the generator. If you'd like to contribute some random paragraphs,
-            please contact us "
+        text="Go green and save money with our solar
+power solutions. We offer a wide range of
+solar panel systems that are designed to
+provide clean, reliable, and cost-effective
+energy for homes and businesses. Our
+experienced technicians ensure that
+your solar power system is customized
+to meet your energy needs and budget.
+Switch to solar power and enjoy the
+benefits of reduced electricity costs,
+energy independence, and a positive
+impact on the environment. "
         img1={pic1}
         img2={pic2}
       />
@@ -33,10 +41,12 @@ const Offering = () => {
       <OfferingData
         className="first-desc-reverse"
         heading="Water Drilling"
-        text="Yes. We're always interested in improving this generator and one of
-            the best ways to do that is to add new and interesting paragraphs to
-            the generator. If you'd like to contribute some random paragraphs,
-            please contact us "
+        text="Secure your water supply and reduce your
+dependence on municipal resources with
+our borehole drilling services. Our company
+specializes in the drilling and installation of
+boreholes for both residential and commercial
+properties. "
         img1={pic3}
         img2={pic4}
       />
@@ -44,10 +54,18 @@ const Offering = () => {
       <OfferingData
         className="first-desc"
         heading="Construction"
-        text="Yes. We're always interested in improving this generator and one of
-            the best ways to do that is to add new and interesting paragraphs to
-            the generator. If you'd like to contribute some random paragraphs,
-            please contact us "
+        text="Leading your construction projects to success
+with our expert team of construction managers.
+Our company specializes in managing and
+delivering high-quality, efficient construction
+projects on time and within budget. We have a
+strong track record of successfully managing
+a wide range of projects, from residential to
+commercial and industrial. We pride ourselves
+on providing exceptional service, meeting the
+unique needs of each client, and ensuring
+that your project is completed to the highest
+standards. "
         img1={pic5}
         img2={pic6}
       />

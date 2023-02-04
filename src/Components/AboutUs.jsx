@@ -3,28 +3,43 @@ import "./AboutUsStyles.css";
 function AboutUs() {
   return (
     <div className="about-container">
-      <h1>Our History</h1>
+      <h1>Who we are</h1>
       <p>
-        Perfect square is owned and managed by perfect square in Pvt. Ltd, a
-        leading brand in wet designing services and e-commerce solutions.
-        Perfect square in Pvt. Ltd. is counted for its expertise in web
-        solutions and its top ranking business portals. Our invincible expertise
-        and rich experience has raised our spirit to reach ahead from our
-        client's expectation: Commendable success rate of other portals managed
-        by Perfect square is a live paradigm of our work excellence
+        Our company mainly specializes in harnessing the power of the sun to
+        provide clean, renewable energy for homes and businesses. With
+        stateof-the-art technology and experienced technicians, we offer
+        customized solar panel systems that are efficient, cost-effective, and
+        good for the environment. We are a team of experienced construction
+        managers committed to delivering high-quality and efficient construction
+        projects on time and within budget. With a strong track record of
+        successfully managing a wide range of projects, from residential to
+        commercial and industrial, our company is dedicated to providing
+        exceptional service and meeting the unique needs of each client.
       </p>
 
-      <h1>Our Mission</h1>
+      <h1>What we do</h1>
       <p>
-        Our mission is to touch the horizon where our capabilities may
-        successfull requirements of our clients, that too with uitimat
-        transparency and cost-effectiveness
+        Our services comprise all aspects of project development from
+        conception, planning, designing, financing, obtaining requisite
+        approvals, complete project management, cost calculations (BQs)
+        materials sourcing and supplies, furnishings, landscaping and
+        beautification, utilities connections and expert advice as requested by
+        our clients.
       </p>
 
-      <h1>Our vision</h1>
+      <h1>Why choose us</h1>
       <p>
-        To sow the seeds of par-excellence services with customer centric
-        approach and reap the trust of worldwide clients
+        Building a sustainable future with our integrated solar and construction
+        services. Our company offers a full range of services from solar panel
+        installation to full-scale construction projects. We have a team of
+        experienced professionals that work closely with clients to design and
+        build properties that are not only energyefficient but also visually
+        stunning and highly functional. We pride ourselves on providing
+        exceptional service and utilizing the latest technology and design
+        trends to bring your vision to life. Whether you’re building a new home,
+        renovating a commercial space or planning a large-scale development, we
+        have the expertise to make it happen with the added benefits of solar
+        energy.
       </p>
     </div>
   );

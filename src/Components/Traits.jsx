@@ -19,7 +19,10 @@ function Trait() {
         <TraitsData
           image={trait1}
           heading="EXPERT CONTRACTORS"
-          text="PERFECT SQUARE engages a pool of professionals with specialized knowledge, experience and dedication whose activities are well coordinated to avoid waste excessive costs and delays"
+          text="We engage a pool of professionals with
+specialized knowledge, experience and
+dedication whose activities are well coordinated
+to avoid waste excessive costs and delays."
         />
 
         <TraitsData
