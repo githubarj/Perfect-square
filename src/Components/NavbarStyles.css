@@ -18,10 +18,21 @@
 }
 
 .navbar-logo {
-    color: #f9060c;
-    font-size: 2.53vw;
+   
     cursor: pointer;
+}
+
+.navbar-logo {
     display: inline;
+    justify-self: center;
+    align-items: center;
+    padding-top: 0.732vw;
+}
+
+.navbar-logo img {
+    max-width: 76%;
+    height: 100%;
+    justify-self: center;
 }
 
 .nav-menu {
@@ -156,4 +167,6 @@
         font-size: 1.2rem;
         color: #222;
     }
+
+
 }

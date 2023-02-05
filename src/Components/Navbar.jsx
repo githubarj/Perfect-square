@@ -3,6 +3,8 @@ import "./NavbarStyles.css";
 import { MenuItems } from "./MenuItems";
 import { Link } from "react-router-dom";
 
+import logo from "../assets/logo.png"
+
 class Navbar extends Component {
   state = { clicked: false };
   handleClick = () => {
@@ -11,7 +13,7 @@ class Navbar extends Component {
   render() {
     return (
       <nav className="NavbarItems">
-        <h1 className="navbar-logo">Perfect Square</h1>
+        <h1 className="navbar-logo"><img src={logo} alt="" /></h1>
 
         <div className="menu-icons" onClick={this.handleClick}>
           <i
