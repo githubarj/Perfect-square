@@ -1,4 +1,5 @@
 import { Component } from "react";
+import { Link } from "react-router-dom";
 import "./OfferingStyles.css";
 
 
@@ -11,6 +12,7 @@ class OfferingData extends Component {
           <p>
             {this.props.text}
           </p>
+          <Link to={this.props.link} className="link">See past work</Link>
         </div>
 
         <div className="image">

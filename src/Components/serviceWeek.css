@@ -1,0 +1,42 @@
+.sw-container {
+  background-image: url("/7797659.jpg");
+  width: auto;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: relative;
+  display: flex;
+  padding: 30px 250px 0px 60px;
+  justify-content: space-between;
+}
+
+.information {
+  position: absolute;
+  right: 360px;
+  bottom: 145px;
+  background: white;
+  font-size: 13px;
+}
+
+.name {
+  justify-self: center;
+  color: white;
+  font-weight: 700;
+  font-size: 30px;
+  font-family: Inter;
+}
+
+.website {
+  color: white;
+  font-size: 20px;
+  font-family: Inter;
+  justify-self: center;
+}
+
+.questions {
+    color: white;
+    font-size: 19px;
+    font-family: Inter;
+    position: absolute;
+    bottom: 30px;
+}

@@ -627,6 +627,13 @@ has@^1.0.3:
   dependencies:
     function-bind "^1.1.1"
 
+hero-slider@^3.1.0:
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/hero-slider/-/hero-slider-3.1.0.tgz#540f3e38dccde0add7a2a9c83c918bae86fe64f1"
+  integrity sha512-NdxAGb3X+WOjIYRYorodvLqvDzNZPUGe7bK3LIunT3uHm4o1uV21dHmL/nmUo6CdpsNNx166W9LM2p5WPuW3wQ==
+  dependencies:
+    react-intersection-observer "9.4.0"
+
 hey-listen@^1.0.8:
   version "1.0.8"
   resolved "https://registry.yarnpkg.com/hey-listen/-/hey-listen-1.0.8.tgz#8e59561ff724908de1aa924ed6ecc84a56a9aa68"
@@ -735,6 +742,11 @@ react-dom@^18.2.0:
   dependencies:
     loose-envify "^1.1.0"
     scheduler "^0.23.0"
+
+react-intersection-observer@9.4.0:
+  version "9.4.0"
+  resolved "https://registry.yarnpkg.com/react-intersection-observer/-/react-intersection-observer-9.4.0.tgz#f6b6e616e625f9bf255857c5cba9dbf7b1825ec7"
+  integrity sha512-v0403CmomOVlzhqFXlzOxg0ziLcVq8mfbP0AwAcEQWgZmR2OulOT79Ikznw4UlB3N+jlUYqLMe4SDHUOyp0t2A==
 
 react-is@^16.13.1:
   version "16.13.1"

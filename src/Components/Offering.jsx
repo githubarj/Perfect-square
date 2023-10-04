@@ -33,7 +33,8 @@ to meet your energy needs and budget.
 Switch to solar power and enjoy the
 benefits of reduced electricity costs,
 energy independence, and a positive
-impact on the environment. "
+impact on the environment."
+        link="/solar"
         img1={pic1}
         img2={pic2}
       />
@@ -47,6 +48,7 @@ our borehole drilling services. Our company
 specializes in the drilling and installation of
 boreholes for both residential and commercial
 properties. "
+        link="/water"
         img1={pic3}
         img2={pic4}
       />
@@ -66,6 +68,7 @@ on providing exceptional service, meeting the
 unique needs of each client, and ensuring
 that your project is completed to the highest
 standards. "
+        link="/construction"
         img1={pic5}
         img2={pic6}
       />

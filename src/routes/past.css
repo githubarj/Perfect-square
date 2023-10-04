@@ -1,0 +1,25 @@
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 4rem 6rem;
+  padding: 10px;
+}
+
+.slider {
+  width: 50%;
+  height: 50% !important;
+  position: relative;
+
+  border-radius: 50px;
+}
+
+.content {
+  width: 45%;
+  text-align: start;
+  font-size: 1.1rem;
+}
+
+h1{
+    padding-bottom: 1rem;
+}

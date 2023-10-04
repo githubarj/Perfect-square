@@ -12,7 +12,9 @@ font-size: 3rem;
     align-items: center;
     justify-content: space-between;
     margin-top: 4.5rem;
+
 }
+
 
 .first-desc-reverse{
     display: flex;
@@ -21,6 +23,14 @@ font-size: 3rem;
     justify-content: space-between;
     margin-top: 4.5rem;
 }
+
+a {
+    text-decoration: none   ;
+    cursor: pointer;
+    color: #f9060c;
+}
+
+
 
 .des-text {
     width: 45%;
